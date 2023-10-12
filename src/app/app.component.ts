@@ -7,4 +7,22 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Demo1';
+
+  isCut = false;
+
+  cutCake(){
+    this.isCut = true;
+    console.log(this.isCut);
+  }
+
+  blown = false;
+  BlowCandles(){
+    this.blown = true;
+    console.log(this.blown);
+  }
+
+  isCutCake = false;
+  CutCake(){
+    this.isCutCake = true;
+  }
 }
